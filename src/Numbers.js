@@ -19,7 +19,10 @@ export const Numbers = (props) => {
       <button onClick={clickHandler}>Fetch</button>
       <br />
       <br />
-      {filterArr.length > 0 && filterArr.map(i=><div>{i.id}{'  '}{i.name}</div>)}
+      {filterArr.length > 0 && filterArr.map(i=><div>
+        Student Name :{i.name}{'  '} and Registration no : {i.id}
+      
+     </div>)}
     </div>
   );
 };
